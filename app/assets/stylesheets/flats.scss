@@ -1,0 +1,50 @@
+.cards {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+
+.flat-card {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+  }
+  .details {
+    background-color: #F8F9FA;
+    padding: 16px;
+    flex-grow: 1;
+  }
+  .actions {
+    background-color: white;
+    padding: 16px;
+    height: 60px;
+  }
+}
+
+.yellow-link {
+  color: #ffc107;
+  margin-right: 16px;
+  &:hover {
+    color: #d39e00;
+  }
+}
+
+.blue-link {
+  color: #007bff;
+  margin-right: 16px;
+  &:hover {
+    color: #0056b3;
+  }
+}
+
+.red-link {
+  color: #dc3545;
+  margin-right: 16px;
+  &:hover {
+    color: #bd2130;
+  }
+}
